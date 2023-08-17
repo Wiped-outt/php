@@ -6,7 +6,7 @@
     <title>Sintaxe Geral</title>
 
     <style>
-        .body {background-color: black;}
+        .italic {font-style;}
         .destaque {color: blueviolet;}
         .destaque2 {color: blue;}
     </style>
@@ -15,7 +15,7 @@
 <body>
     
     <h1 class="destaque">Trabalhando com PHP</h1>
-    <p>Programador: Thierry</p>
+    <p class="deastaque2">Programador: Thierry</p>
     <hr>
 
     <?php 
@@ -29,7 +29,7 @@
 
     ?>
 
-    <h1 class="destaque2">HTML e PHP mesclados</h1>
+    <h1>HTML e PHP mesclados</h1>
     <p>parágrafo HTML</p>
 
     <?php
