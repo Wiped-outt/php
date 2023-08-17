@@ -28,7 +28,7 @@
 
     ?>
 
-    <h1>HTML e PHP mesclados</h1>
+    <h1 class="violet">HTML e PHP mesclados</h1>
     <p>parágrafo HTML</p>
 
     <?php
