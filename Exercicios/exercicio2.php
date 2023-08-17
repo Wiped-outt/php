@@ -6,16 +6,15 @@
     <title>Sintaxe Geral</title>
 
     <style>
-        .italic {font-style;}
-        .destaque {color: blueviolet;}
-        .destaque2 {color: blue;}
+        .destaque {color: blue;}
+        .violet {color: blueviolet;}
     </style>
 
 </head>
 <body>
     
     <h1 class="destaque">Trabalhando com PHP</h1>
-    <p class="deastaque2">Programador: Thierry</p>
+    <p class="violet">Programador: Thierry</p>
     <hr>
 
     <?php 
