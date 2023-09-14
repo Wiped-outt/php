@@ -22,13 +22,13 @@
         <p><strong><u>EXEMPLO:<br>O programa PHP explica passo a passo a formula: $a + 3 * 4 + 5 * $b</u></strong></p>
             
                 <?php
-                    $a = 2;
+                    $a = 8;
                     $b  = 4;
                 
-                    echo 'Vamos calcular: $a + 3 * 4 + 5 * $b<br>';
+                    echo 'Vamos calcular: $a + 3 * 4 + 5 * $b <br>';
                     echo "Resultado: ";
                     echo $a + 3 * 4 + 5 * $b;
-                    echo "<br>Porque" . ' $a' . " vale $a <br>";
+                    echo "<br>Porque " . '$a' . " vale $a <br>";
                     echo 'e $b vale 4 <br>'; 
                     echo "Primeira multiplicação: 3 x 4 == 12<br>";
                     echo 'Segunda multiplicação: 5 x 4 (que é o valor do $b) == 20<br>';
@@ -44,10 +44,26 @@
                     <u>EXERCÍCIO:<br>Criar aqui a mesma formula usando parêntesis assim: ($a + 3) * 4 + (5 * $b)</u>
                 </strong>   
 
-                    
+  
                 
             </p>
-            
+
+                <?php
+                    $a = 5;
+                    $b  = 4;
+                
+                    echo 'Vamos calcular: ($a + 3) * 4 + (5 * $b) <br>';
+                    echo "Resultado: ";
+                    echo ($a + 3) * 4 + (5 * $b);
+                    echo "<br>Porque " . '$a' . " vale $a <br>";
+                    echo 'e $b vale 4 <br>'; 
+                    echo "Primeiro parentesis: ($a " . '[valor do $a]' . " + 3 ) = " . ($a+3) . " <br>";
+                    echo 'Segundo parentesis: (5 x $b [valor do ' . "$b" . '] ) = ' . (5*$b) . '<br>';
+                    echo "Primeira multiplicação: 5 [do primeiro parentesis] x 4 = " . (5*4) . "<br>";
+                    echo 'Agora as somas: 20 [do primeira multiplicação] + 20 [da segunda multiplicação] = ' . (20+20) . '<br>';
+                    
+
+                ?>  
                 
         </div>
     </div>
