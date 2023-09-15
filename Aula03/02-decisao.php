@@ -71,6 +71,19 @@
     </ul>
 
     <!-- Criar aqui seu programa PHP -->
+
+    <?php
+
+    $a = 5;
+
+    if($a > 1) {
+        echo "True";
+    }
+
+    if($a > 1)
+        echo "True";
+
+    ?>
     
     
     <hr>
@@ -122,6 +135,22 @@
 
     <!-- Criar aqui seu programa PHP -->
 
+    <?php
+    
+    $produto = 'Ultrabook ASUS';
+    $estoque = 15;
+    $estoqueminimo = 14;
+
+    echo "<h3> $produto </h3><br>";
+
+    if($estoque < $estoqueminimo) {
+        echo "<div class='repor'>É necessário repor o estoque</div>"; 
+        echo "<mark> Urgente </mark>";
+    } else {
+        echo "<div class='ok'>não é necessário repor o estoque</div>";
+    }
+
+    ?>
     
     <hr>
 
@@ -169,6 +198,23 @@
     
     <!-- Criar aqui seu programa PHP -->
     
+        <!-- <li>Esfiha</li>
+            <li>Pastel</li>
+            <li>Pizza</li> -->
+
+        <?php
+
+        $opção = 2;
+
+        if($opção ==1) {$opçãoescolhida = "Pastel";} 
+        elseif($opção ==2) {$opçãoescolhida = "Pizza";}
+        elseif($opção ==3) {$opçãoescolhida = "Esfiha";}
+        else {$opçãoescolhida = "Opção inválida";}
+
+        echo "<p>$opçãoescolhida</p>"
+
+        ?>
+
     <hr>
 
     <!-- ___________________________________________________________________ -->
@@ -203,6 +249,18 @@
 
     <!-- Criar aqui seu programa PHP -->
     
+    <?php
+
+        switch($opção) {
+            case 1: $pedido = "Pastel"; break;
+            case 2: $pedido = "Pizza"; break;
+            case 3: $pedido = "Esfiha"; break;
+            default: $pedido = "Opção Inválida"; break;
+        }
+
+        echo "<p>$pedido</p>";
+
+    ?>
     
     <!-- Rodapé -->
     <div class="container">
