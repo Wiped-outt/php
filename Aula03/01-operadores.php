@@ -147,15 +147,34 @@
                         <td>
                             <!-- Criar aqui o programa PHP #ue vai gerar a saída -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+                            
+                            // Comando echo para exibir valores
+                            echo "Novo valor: " . $a += $b;
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
-    
+
+
                     <tr>
                         <td>-=</td>
                         <td>
                             <!-- Criar aqui o programa PHP #ue vai gerar a saída -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+                            
+                            // Comando echo para exibir valores
+                            echo "Novo valor: " . $a -= $b;
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -165,6 +184,15 @@
                         <td>
                             <!-- Criar aqui o programa PHP #ue vai gerar a saída -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+                            
+                            // Comando echo para exibir valores
+                            echo "Novo valor: " . $a *= $b;
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -174,6 +202,16 @@
                         <td>
                             <!-- Criar aqui o programa PHP #ue vai gerar a saída -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+                            
+                            // Comando echo para exibir valores
+                            echo "Novo valor: " . $a /= $b ;
+                            
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -183,7 +221,16 @@
                         <td>**=</td>
                         <td>
                             <!-- Criar aqui o programa PHP #ue vai gerar a saída -->
+
+                            <?php
                             
+                            $a = 10;
+                            $b = 5;
+                            
+                            // Comando echo para exibir valores
+                            echo "Novo valor: " . number_format($a **= $b,2,",",".");
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -295,6 +342,19 @@
                         <td>
                             <!-- Gerar aqui o programa PHP -->
 
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a == $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -304,6 +364,19 @@
                         <td>$a === $b</td>
                         <td>
                             <!-- Gerar aqui o programa PHP -->
+
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a === $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
                             
                         </td>
                         <td>$a recebe 10 e <br> $b recebe 5</td>
@@ -315,6 +388,19 @@
                         <td>
                            <!-- Gerar aqui o programa PHP -->
                             
+                           <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a != $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -324,7 +410,20 @@
                         <td>$a <> $b</td>
                         <td>
                             <!-- Gerar aqui o programa PHP -->
+
+                            <?php
                             
+                            $a = 10;
+                            $b = 5;
+
+                            if($a <> $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -335,6 +434,19 @@
                         <td>
                             <!-- Gerar aqui o programa PHP -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a !== $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e <br> $b recebe 5</td>
                     </tr>
@@ -345,6 +457,19 @@
                         <td>
                             <!-- Gerar aqui o programa PHP -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a < $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -355,6 +480,19 @@
                         <td>
                             <!-- Gerar aqui o programa PHP -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a > $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
@@ -365,6 +503,19 @@
                         <td>
                             <!-- Gerar aqui o programa PHP -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a <= $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e <br> $b recebe 5</td>
                     </tr>
@@ -375,6 +526,19 @@
                         <td>
                             <!-- Gerar aqui o programa PHP -->
                             
+                            <?php
+                            
+                            $a = 10;
+                            $b = 5;
+
+                            if($a >= $b) {
+                                echo "True (verdadeiro)";
+                            } else {
+                                echo "False (Falso)";
+                            }
+
+                            ?>
+
                         </td>
                         <td>$a recebe 10 e $b recebe 5</td>
                     </tr>
