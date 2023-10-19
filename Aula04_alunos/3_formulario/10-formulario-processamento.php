@@ -16,6 +16,27 @@
  
 
     <!-- 1ª Digitação (aqui) -->
+    <?php
+
+    //Detectar quando o formulário é acionado
+    if(isset($_POST['enviar'])) {
+
+        //Validamos se os campos foram preenchidos
+        if(empty($_POST['none']) || empty($_POST['email'])) {
+
+    ?>
+
+    <p style="color:red">Preencha os campos</p>
+    <p><a href=""><link href="10-formulario-processamento.php">Voltar</a></p>
+
+    <?php
+
+        } else {
+            $nome = filter_input(INPUT_POST, "nome", FILTER_SANITIZE_SPECIAL_CHARS);
+            $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+    
+
+    ?>
 
     <section>
         <h2>Dados</h2>
@@ -27,6 +48,14 @@
     
 
     <!-- 2ª Digitação (aqui) -->
+    <?php
+
+    }
+        } else {
+
+        }
+
+    ?>
 
     
     <!-- Entra aqui porque ao entrar na página ele entra no falso e cai aqui (Mostra formulário) -->
